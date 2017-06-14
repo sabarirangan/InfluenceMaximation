@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="mypc" uuid="d7a7e728-89cf-4b96-ab20-42adee0004af">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/twitterdb</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="aws" uuid="ed35bdcd-07c1-47cc-9f9b-5c5b00f75c69">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/twitterdb</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="twitterdb1@localhost" uuid="c128a18e-ae4f-45f4-bc7c-4fdc4a5479c6">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/twitterdb1</jdbc-url>
+    </data-source>
+  </component>
+</project>
