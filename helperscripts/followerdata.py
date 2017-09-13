@@ -4,8 +4,8 @@ import psycopg2
 import json
 
 
-consumer_key = '4FaZ3uVERrIOlFScESLggIzqs'
-consumer_secret = '83Pm6cqAyyers7V5EGdvmElzbcmq3EQDbfb9ZTMieg8bcsqELA'
+consumer_key = 'xxxxxxx'
+consumer_secret = 'xxxxxxx'
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 
