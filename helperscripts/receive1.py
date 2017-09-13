@@ -12,13 +12,13 @@ channel.queue_declare(queue='sabarirangan1996',durable=True)
 conn = psycopg2.connect("dbname='twitterdb' user='postgres' host='localhost' password='zxasqw12'")
 cur=conn.cursor()
 
-consumer_key = 'Fs61elRfHr00yM1dYf9ZQQWC6'
-consumer_secret = 'lzZGfGdzDVLkOZL3ayNAEpQKjVaEgiucY4Ud88CMZ7KQvKJ19Z'
+consumer_key = 'xxxxxxxxx'
+consumer_secret = 'xxxxxxxxxxx'
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 
-access_token = '2986939003-C49fviOIzjTBp4cnLIMCatJuWQhyV2009NZG1PO'
-access_token_secret = 'tVdgH1TDeO0iGnqN10fnf2H6Ew2eqQcL0bIhwyMUAu2L2'
+access_token = 'xxxxxxxxxO'
+access_token_secret = 'xxxxxxxxxxxxxxxx'
 auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth)
 
