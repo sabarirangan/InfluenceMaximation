@@ -8,13 +8,13 @@ import tweepy
 conn = psycopg2.connect("dbname='twitterdb' user='postgres' host='localhost' password='zxasqw12'")
 cur=conn.cursor()
 
-consumer_key = '4FaZ3uVERrIOlFScESLggIzqs'
-consumer_secret = '83Pm6cqAyyers7V5EGdvmElzbcmq3EQDbfb9ZTMieg8bcsqELA'
+consumer_key = 'xxxxxxxxxxxx'
+consumer_secret = 'xxxxxxxxxxxxxxx'
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 
-access_token = '134097445-kIuwstknl5Q1PfP76XlHSEREnBbdJPgBUL0GTki4'
-access_token_secret = 'OU6uJc1gLiie5dyaX7w1dzHORaUeQ2wurghfH4CpoPerp'
+access_token = 'xxxxxxxxxxxxx'
+access_token_secret = 'xxxxxxxxxxxxx'
 auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth)
 
