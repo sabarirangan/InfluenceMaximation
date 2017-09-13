@@ -5,11 +5,11 @@ import json
 
 
 
-consumer_key = 'lYvRP6UfNbVuFhIPjqKp4ls1a'
-consumer_secret = 'fhpbADrqSkHZweGSQQ6XrcoddYe0dpHQnT0lmZqSTvFk7gbY63'
+consumer_key = 'xxxxxxxxxxxxxxxxxxxx'
+consumer_secret = 'xxxxxxxxx'
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
-access_token = '92757725-gqkFLxJo2t1elxkI5dXTcc0MWddtWAuScYb0qig8G'
-access_token_secret = '6trocZx4RvuO3XL9fG5ldPa18wWTBzaweKZSXnYuVOiH2'
+access_token = 'xxxxxxxxxxx'
+access_token_secret = 'xxxxxxxxxxxxxxx'
 auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth)
 
