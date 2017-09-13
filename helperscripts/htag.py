@@ -4,13 +4,13 @@ import psycopg2
 import json
 
 
-consumer_key = 'Fs61elRfHr00yM1dYf9ZQQWC6'
-consumer_secret = 'lzZGfGdzDVLkOZL3ayNAEpQKjVaEgiucY4Ud88CMZ7KQvKJ19Z'
+consumer_key = 'xxxxxxxxxxxxx'
+consumer_secret = 'xxxxxxxxxxxxxxxx'
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 
-access_token = '2986939003-C49fviOIzjTBp4cnLIMCatJuWQhyV2009NZG1PO'
-access_token_secret = 'tVdgH1TDeO0iGnqN10fnf2H6Ew2eqQcL0bIhwyMUAu2L2'
+access_token = 'xxxxxxxxxxxxxxx-xxxxxxx'
+access_token_secret = 'xxxxxxxxxxxxxx'
 auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth)
 
